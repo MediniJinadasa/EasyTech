@@ -67,7 +67,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     public void openReaourcrs(){
-        Intent intent = new Intent(this, ResourcrsActivity.class);
+        Intent intent = new Intent(this, ResourcesActivity.class);
         startActivity(intent);
     }
 
