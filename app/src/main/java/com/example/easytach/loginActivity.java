@@ -27,7 +27,7 @@ public class loginActivity extends AppCompatActivity {
     }
 
     public void openLogin(){
-        Intent intent = new Intent(this, DashboardAvtivity.class);
+        Intent intent = new Intent(this, DashboardActivity.class);
         startActivity(intent);
     }
 }
