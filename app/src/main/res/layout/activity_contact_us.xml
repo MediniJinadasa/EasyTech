@@ -1,6 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ContactUsActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="bottom|center"
+            android:text="Contact Us"
+            android:textAlignment="gravity"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/man"
+            android:padding="20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_users2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Easy Tech Solutions"
+                android:textAlignment="gravity"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_mail"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="easytech@gmail.com"
+                android:textAlignment="gravity"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_local_phone_black_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="0112866789"
+                android:textAlignment="gravity"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_location_on_black_24dp" />
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="wrap_content"
+                android:layout_height="226dp"
+                android:layout_weight="5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
