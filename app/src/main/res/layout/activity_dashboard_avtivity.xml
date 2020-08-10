@@ -40,7 +40,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
-            android:id="@+id/btnProfiles2"
+            android:id="@+id/btnAboutUs"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="2"
@@ -85,7 +85,7 @@
             android:layout_columnWeight="2"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="16dp"
-            android:id="@+id/btnAppoinment"
+            android:id="@+id/btnWhyChoose"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_marginBottom="16dp"
@@ -120,7 +120,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btnDoctor"
+            android:id="@+id/btnServices"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -166,7 +166,7 @@
             android:layout_columnWeight="2"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="16dp"
-            android:id="@+id/btnHospital"
+            android:id="@+id/btnResourcrs"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_marginBottom="16dp"
@@ -201,7 +201,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
-            android:id="@+id/btnSpecial"
+            android:id="@+id/btnContactUs"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="2"
