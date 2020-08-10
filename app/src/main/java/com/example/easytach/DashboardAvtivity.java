@@ -18,7 +18,7 @@ public class DashboardAvtivity  extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.TYPE_INPUT_METHOD_DIALOG);
         setContentView(R.layout.activity_dashboard_avtivity);
 
-        cardView=(CardView) findViewById(R.id.btnDoctor);
+        cardView=(CardView) findViewById(R.id.btnServices);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +26,7 @@ public class DashboardAvtivity  extends AppCompatActivity {
             }
         });
 
-        cardView=(CardView) findViewById(R.id.btnHospital);
+        cardView=(CardView) findViewById(R.id.btnResourcrs);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +34,7 @@ public class DashboardAvtivity  extends AppCompatActivity {
             }
         });
 
-        cardView=(CardView) findViewById(R.id.btnAppoinment);
+        cardView=(CardView) findViewById(R.id.btnWhyChoose);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class DashboardAvtivity  extends AppCompatActivity {
             }
         });
 
-        cardView=(CardView) findViewById(R.id.btnSpecial);
+        cardView=(CardView) findViewById(R.id.btnContactUs);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +50,7 @@ public class DashboardAvtivity  extends AppCompatActivity {
             }
         });
 
-        cardView=(CardView) findViewById(R.id.btnProfiles2);
+        cardView=(CardView) findViewById(R.id.btnAboutUs);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
