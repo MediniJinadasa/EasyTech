@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 
-public class DashboardAvtivity  extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
     private CardView cardView;
 
 
@@ -16,13 +16,13 @@ public class DashboardAvtivity  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.TYPE_INPUT_METHOD_DIALOG);
-        setContentView(R.layout.activity_dashboard_avtivity);
+        setContentView(R.layout.activity_dashboard_activity);
 
         cardView=(CardView) findViewById(R.id.btnServices);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openDoctor();
+                openServices();
             }
         });
 
@@ -30,15 +30,15 @@ public class DashboardAvtivity  extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openHospital();
+                openReaourcrs();
             }
         });
 
-        cardView=(CardView) findViewById(R.id.btnWhyChoose);
+        cardView=(CardView) findViewById(R.id.btnWhy);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openAppoinment();
+                openEasyTech();
             }
         });
 
@@ -46,7 +46,7 @@ public class DashboardAvtivity  extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openSpecial();
+                openContactUs();
             }
         });
 
@@ -54,38 +54,36 @@ public class DashboardAvtivity  extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openProfile22();
+                openAboutUs();
             }
         });
 
 
     }
 
-    public void openDoctor(){
+    public void openServices(){
         Intent intent = new Intent(this, ServicesActivity.class);
         startActivity(intent);
     }
 
-    public void openHospital(){
+    public void openReaourcrs(){
         Intent intent = new Intent(this, ResourcrsActivity.class);
         startActivity(intent);
     }
 
-    public void openAppoinment(){
+    public void openEasyTech(){
         Intent intent = new Intent(this, EasyTech.class);
         startActivity(intent);
     }
 
-    public void openSpecial(){
+    public void openContactUs(){
         Intent intent = new Intent(this, ContactUsActivity.class);
         startActivity(intent);
     }
 
-    public void openProfile22(){
+    public void openAboutUs(){
         Intent intent = new Intent(this, AboutUsActivity.class);
         startActivity(intent);
     }
 
 }
-
-
