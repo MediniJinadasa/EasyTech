@@ -11,6 +11,6 @@ public class ResourcesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.TYPE_INPUT_METHOD_DIALOG);
-        setContentView(R.layout.activity_Resources);
+        setContentView(R.layout.activity_resources);
     }
 }
