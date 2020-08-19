@@ -49,8 +49,14 @@
                     android:foreground="@drawable/solutions_icon"
                     android:src="@drawable/solutions_icon" />
 
-
-                <include layout="@layout/activity_financial_solutions" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:paddingLeft="100dp"
+                    android:paddingTop="35dp"
+                    android:text="Financial Solutions"
+                    android:textSize="20dp" />
 
 
             </androidx.cardview.widget.CardView>
